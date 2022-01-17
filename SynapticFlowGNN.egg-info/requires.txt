@@ -1,0 +1,9 @@
+numpy
+torch
+scipy
+matplotlib
+sklearn
+mlxtend
+networkx
+torchprofile
+dgl-cu101==0.4.1

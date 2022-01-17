@@ -1,0 +1,7 @@
+README.md
+setup.py
+SynapticFlowGNN.egg-info/PKG-INFO
+SynapticFlowGNN.egg-info/SOURCES.txt
+SynapticFlowGNN.egg-info/dependency_links.txt
+SynapticFlowGNN.egg-info/requires.txt
+SynapticFlowGNN.egg-info/top_level.txt

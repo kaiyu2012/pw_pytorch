@@ -1,1 +1,1 @@
-# pw_pytorch
+# SynapticFlowGNN

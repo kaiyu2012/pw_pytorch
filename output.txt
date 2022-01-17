@@ -1,0 +1,2804 @@
+device:  cuda:0
+0.25 compression ratio, 1 train-prune levels
+--------------Pre training GCN--------------
+Epoch: 0001 loss_train: 1.9558 acc_train: 0.1000 loss_val: 1.9711 acc_val: 0.0800 time: 0.0763s
+Best val acc: tensor(0.0800, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0002 loss_train: 1.9581 acc_train: 0.1357 loss_val: 1.9660 acc_val: 0.0840 time: 0.0741s
+Best val acc: tensor(0.0840, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0003 loss_train: 1.9499 acc_train: 0.1500 loss_val: 1.9612 acc_val: 0.0820 time: 0.0698s
+Best val acc: tensor(0.0840, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0004 loss_train: 1.9454 acc_train: 0.1429 loss_val: 1.9570 acc_val: 0.0960 time: 0.0691s
+Best val acc: tensor(0.0960, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0005 loss_train: 1.9405 acc_train: 0.1500 loss_val: 1.9528 acc_val: 0.1160 time: 0.0687s
+Best val acc: tensor(0.1160, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0006 loss_train: 1.9393 acc_train: 0.1500 loss_val: 1.9488 acc_val: 0.1220 time: 0.0687s
+Best val acc: tensor(0.1220, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0007 loss_train: 1.9279 acc_train: 0.2357 loss_val: 1.9445 acc_val: 0.1660 time: 0.0674s
+Best val acc: tensor(0.1660, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0008 loss_train: 1.9250 acc_train: 0.2214 loss_val: 1.9397 acc_val: 0.1640 time: 0.0670s
+Best val acc: tensor(0.1660, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0009 loss_train: 1.9281 acc_train: 0.2929 loss_val: 1.9346 acc_val: 0.1700 time: 0.0676s
+Best val acc: tensor(0.1700, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0010 loss_train: 1.9187 acc_train: 0.3143 loss_val: 1.9298 acc_val: 0.2060 time: 0.0678s
+Best val acc: tensor(0.2060, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0011 loss_train: 1.9170 acc_train: 0.3429 loss_val: 1.9251 acc_val: 0.2460 time: 0.0679s
+Best val acc: tensor(0.2460, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0012 loss_train: 1.9125 acc_train: 0.3500 loss_val: 1.9208 acc_val: 0.2700 time: 0.0681s
+Best val acc: tensor(0.2700, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0013 loss_train: 1.9053 acc_train: 0.3214 loss_val: 1.9164 acc_val: 0.2680 time: 0.0686s
+Best val acc: tensor(0.2700, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0014 loss_train: 1.8992 acc_train: 0.4286 loss_val: 1.9122 acc_val: 0.2980 time: 0.0676s
+Best val acc: tensor(0.2980, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0015 loss_train: 1.8959 acc_train: 0.3786 loss_val: 1.9083 acc_val: 0.2980 time: 0.0684s
+Best val acc: tensor(0.2980, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0016 loss_train: 1.8996 acc_train: 0.3571 loss_val: 1.9055 acc_val: 0.3080 time: 0.0693s
+Best val acc: tensor(0.3080, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0017 loss_train: 1.8940 acc_train: 0.3714 loss_val: 1.9024 acc_val: 0.3320 time: 0.0688s
+Best val acc: tensor(0.3320, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0018 loss_train: 1.8719 acc_train: 0.4286 loss_val: 1.8989 acc_val: 0.3660 time: 0.0685s
+Best val acc: tensor(0.3660, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0019 loss_train: 1.8821 acc_train: 0.4429 loss_val: 1.8951 acc_val: 0.3420 time: 0.0683s
+Best val acc: tensor(0.3660, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0020 loss_train: 1.8616 acc_train: 0.5286 loss_val: 1.8909 acc_val: 0.3620 time: 0.0680s
+Best val acc: tensor(0.3660, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0021 loss_train: 1.8727 acc_train: 0.4429 loss_val: 1.8871 acc_val: 0.3860 time: 0.0687s
+Best val acc: tensor(0.3860, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0022 loss_train: 1.8675 acc_train: 0.4571 loss_val: 1.8832 acc_val: 0.3900 time: 0.0676s
+Best val acc: tensor(0.3900, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0023 loss_train: 1.8476 acc_train: 0.5286 loss_val: 1.8791 acc_val: 0.3860 time: 0.0687s
+Best val acc: tensor(0.3900, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0024 loss_train: 1.8492 acc_train: 0.5714 loss_val: 1.8757 acc_val: 0.4000 time: 0.0691s
+Best val acc: tensor(0.4000, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0025 loss_train: 1.8291 acc_train: 0.5643 loss_val: 1.8722 acc_val: 0.3840 time: 0.0676s
+Best val acc: tensor(0.4000, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0026 loss_train: 1.8208 acc_train: 0.6071 loss_val: 1.8679 acc_val: 0.4080 time: 0.0683s
+Best val acc: tensor(0.4080, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0027 loss_train: 1.8251 acc_train: 0.5929 loss_val: 1.8629 acc_val: 0.3980 time: 0.0685s
+Best val acc: tensor(0.4080, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0028 loss_train: 1.8061 acc_train: 0.6571 loss_val: 1.8572 acc_val: 0.4400 time: 0.0672s
+Best val acc: tensor(0.4400, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0029 loss_train: 1.8036 acc_train: 0.6286 loss_val: 1.8514 acc_val: 0.4280 time: 0.0674s
+Best val acc: tensor(0.4400, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0030 loss_train: 1.7760 acc_train: 0.6714 loss_val: 1.8459 acc_val: 0.4480 time: 0.0675s
+Best val acc: tensor(0.4480, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0031 loss_train: 1.7788 acc_train: 0.6500 loss_val: 1.8397 acc_val: 0.4220 time: 0.0671s
+Best val acc: tensor(0.4480, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0032 loss_train: 1.7362 acc_train: 0.7286 loss_val: 1.8329 acc_val: 0.4620 time: 0.0670s
+Best val acc: tensor(0.4620, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0033 loss_train: 1.7544 acc_train: 0.6571 loss_val: 1.8259 acc_val: 0.4720 time: 0.0687s
+Best val acc: tensor(0.4720, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0034 loss_train: 1.7201 acc_train: 0.7143 loss_val: 1.8184 acc_val: 0.4660 time: 0.0684s
+Best val acc: tensor(0.4720, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0035 loss_train: 1.7248 acc_train: 0.6571 loss_val: 1.8106 acc_val: 0.4580 time: 0.0684s
+Best val acc: tensor(0.4720, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0036 loss_train: 1.7049 acc_train: 0.6786 loss_val: 1.8033 acc_val: 0.4600 time: 0.0676s
+Best val acc: tensor(0.4720, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0037 loss_train: 1.6740 acc_train: 0.6786 loss_val: 1.7953 acc_val: 0.4780 time: 0.0678s
+Best val acc: tensor(0.4780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0038 loss_train: 1.6788 acc_train: 0.6429 loss_val: 1.7867 acc_val: 0.4320 time: 0.0674s
+Best val acc: tensor(0.4780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0039 loss_train: 1.6588 acc_train: 0.6857 loss_val: 1.7781 acc_val: 0.4500 time: 0.0678s
+Best val acc: tensor(0.4780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0040 loss_train: 1.6358 acc_train: 0.7143 loss_val: 1.7696 acc_val: 0.4920 time: 0.0685s
+Best val acc: tensor(0.4920, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0041 loss_train: 1.6164 acc_train: 0.7429 loss_val: 1.7608 acc_val: 0.4640 time: 0.0684s
+Best val acc: tensor(0.4920, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0042 loss_train: 1.6005 acc_train: 0.7286 loss_val: 1.7522 acc_val: 0.4720 time: 0.0684s
+Best val acc: tensor(0.4920, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0043 loss_train: 1.5713 acc_train: 0.7286 loss_val: 1.7429 acc_val: 0.5240 time: 0.0684s
+Best val acc: tensor(0.5240, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0044 loss_train: 1.5313 acc_train: 0.7357 loss_val: 1.7331 acc_val: 0.4920 time: 0.0680s
+Best val acc: tensor(0.5240, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0045 loss_train: 1.5229 acc_train: 0.7286 loss_val: 1.7240 acc_val: 0.4800 time: 0.0691s
+Best val acc: tensor(0.5240, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0046 loss_train: 1.4790 acc_train: 0.7714 loss_val: 1.7147 acc_val: 0.5220 time: 0.0676s
+Best val acc: tensor(0.5240, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0047 loss_train: 1.4522 acc_train: 0.7714 loss_val: 1.7052 acc_val: 0.4920 time: 0.0677s
+Best val acc: tensor(0.5240, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0048 loss_train: 1.4267 acc_train: 0.8429 loss_val: 1.6960 acc_val: 0.5540 time: 0.0676s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0049 loss_train: 1.4156 acc_train: 0.7643 loss_val: 1.6858 acc_val: 0.5000 time: 0.0684s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0050 loss_train: 1.3809 acc_train: 0.7786 loss_val: 1.6756 acc_val: 0.4700 time: 0.0675s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0051 loss_train: 1.3375 acc_train: 0.8500 loss_val: 1.6662 acc_val: 0.5120 time: 0.0677s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0052 loss_train: 1.3162 acc_train: 0.8143 loss_val: 1.6568 acc_val: 0.5180 time: 0.0677s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0053 loss_train: 1.2731 acc_train: 0.7929 loss_val: 1.6483 acc_val: 0.5140 time: 0.0681s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0054 loss_train: 1.2514 acc_train: 0.8143 loss_val: 1.6404 acc_val: 0.5160 time: 0.0682s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0055 loss_train: 1.2258 acc_train: 0.8500 loss_val: 1.6331 acc_val: 0.4860 time: 0.0685s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0056 loss_train: 1.1793 acc_train: 0.8286 loss_val: 1.6249 acc_val: 0.4960 time: 0.0692s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0057 loss_train: 1.1687 acc_train: 0.8143 loss_val: 1.6160 acc_val: 0.5160 time: 0.0683s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0058 loss_train: 1.0589 acc_train: 0.8857 loss_val: 1.6053 acc_val: 0.5220 time: 0.0690s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0059 loss_train: 1.0862 acc_train: 0.8429 loss_val: 1.5938 acc_val: 0.5360 time: 0.0686s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0060 loss_train: 1.0562 acc_train: 0.8143 loss_val: 1.5844 acc_val: 0.4820 time: 0.0689s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0061 loss_train: 1.0292 acc_train: 0.8643 loss_val: 1.5760 acc_val: 0.5220 time: 0.0703s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0062 loss_train: 0.9542 acc_train: 0.8571 loss_val: 1.5691 acc_val: 0.5260 time: 0.0693s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0063 loss_train: 0.9284 acc_train: 0.8857 loss_val: 1.5615 acc_val: 0.5080 time: 0.0694s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0064 loss_train: 0.8882 acc_train: 0.9000 loss_val: 1.5571 acc_val: 0.4980 time: 0.0669s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0065 loss_train: 0.8648 acc_train: 0.8857 loss_val: 1.5558 acc_val: 0.5060 time: 0.0675s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0066 loss_train: 0.7956 acc_train: 0.9214 loss_val: 1.5571 acc_val: 0.4940 time: 0.0677s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0067 loss_train: 0.7673 acc_train: 0.9071 loss_val: 1.5604 acc_val: 0.5360 time: 0.0677s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0068 loss_train: 0.7444 acc_train: 0.9071 loss_val: 1.5631 acc_val: 0.4840 time: 0.0677s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0069 loss_train: 0.7083 acc_train: 0.9214 loss_val: 1.5621 acc_val: 0.4580 time: 0.0675s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0070 loss_train: 0.7010 acc_train: 0.8786 loss_val: 1.5585 acc_val: 0.4780 time: 0.0681s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0071 loss_train: 0.6522 acc_train: 0.9357 loss_val: 1.5514 acc_val: 0.4460 time: 0.0684s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0072 loss_train: 0.6577 acc_train: 0.8786 loss_val: 1.5417 acc_val: 0.4620 time: 0.0677s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0073 loss_train: 0.5876 acc_train: 0.9286 loss_val: 1.5354 acc_val: 0.4780 time: 0.0673s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0074 loss_train: 0.5352 acc_train: 0.9500 loss_val: 1.5301 acc_val: 0.4720 time: 0.0681s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0075 loss_train: 0.5491 acc_train: 0.9071 loss_val: 1.5275 acc_val: 0.4520 time: 0.0686s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0076 loss_train: 0.5140 acc_train: 0.8857 loss_val: 1.5334 acc_val: 0.4640 time: 0.0685s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0077 loss_train: 0.4622 acc_train: 0.9143 loss_val: 1.5392 acc_val: 0.4680 time: 0.0692s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0078 loss_train: 0.4762 acc_train: 0.9000 loss_val: 1.5460 acc_val: 0.4180 time: 0.0686s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0079 loss_train: 0.4528 acc_train: 0.8929 loss_val: 1.5542 acc_val: 0.4460 time: 0.0688s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0080 loss_train: 0.4325 acc_train: 0.9214 loss_val: 1.5594 acc_val: 0.4180 time: 0.0679s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0081 loss_train: 0.4428 acc_train: 0.8714 loss_val: 1.5665 acc_val: 0.4180 time: 0.0676s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0082 loss_train: 0.4018 acc_train: 0.9500 loss_val: 1.5729 acc_val: 0.4220 time: 0.0671s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0083 loss_train: 0.3779 acc_train: 0.9214 loss_val: 1.5784 acc_val: 0.4120 time: 0.0678s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0084 loss_train: 0.3256 acc_train: 0.9429 loss_val: 1.5817 acc_val: 0.4180 time: 0.0674s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0085 loss_train: 0.3004 acc_train: 0.9571 loss_val: 1.5881 acc_val: 0.4180 time: 0.0695s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0086 loss_train: 0.3179 acc_train: 0.9429 loss_val: 1.5955 acc_val: 0.4020 time: 0.0688s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0087 loss_train: 0.2932 acc_train: 0.9500 loss_val: 1.5987 acc_val: 0.3800 time: 0.0685s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0088 loss_train: 0.3399 acc_train: 0.9143 loss_val: 1.5992 acc_val: 0.3800 time: 0.0691s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0089 loss_train: 0.2825 acc_train: 0.9500 loss_val: 1.6022 acc_val: 0.4060 time: 0.0677s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0090 loss_train: 0.2703 acc_train: 0.9357 loss_val: 1.6098 acc_val: 0.4140 time: 0.0682s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0091 loss_train: 0.2937 acc_train: 0.9214 loss_val: 1.6162 acc_val: 0.4140 time: 0.0685s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0092 loss_train: 0.2425 acc_train: 0.9357 loss_val: 1.6277 acc_val: 0.3960 time: 0.0687s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0093 loss_train: 0.2457 acc_train: 0.9500 loss_val: 1.6403 acc_val: 0.3940 time: 0.0677s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0094 loss_train: 0.2636 acc_train: 0.9143 loss_val: 1.6565 acc_val: 0.3940 time: 0.0688s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0095 loss_train: 0.2216 acc_train: 0.9571 loss_val: 1.6760 acc_val: 0.3740 time: 0.0677s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0096 loss_train: 0.5066 acc_train: 0.9500 loss_val: 1.6862 acc_val: 0.3460 time: 0.0675s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0097 loss_train: 0.2424 acc_train: 0.9286 loss_val: 1.6944 acc_val: 0.3480 time: 0.0680s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0098 loss_train: 0.1779 acc_train: 0.9500 loss_val: 1.7062 acc_val: 0.3640 time: 0.0682s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0099 loss_train: 0.2160 acc_train: 0.9429 loss_val: 1.7178 acc_val: 0.3420 time: 0.0686s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0100 loss_train: 0.1937 acc_train: 0.9429 loss_val: 1.7312 acc_val: 0.3020 time: 0.0693s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+--------------Pruning--------------
+--------------Post training GCN--------------
+Epoch: 0001 loss_train: 1.0249 acc_train: 0.7857 loss_val: 1.5424 acc_val: 0.4040 time: 0.0443s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0002 loss_train: 1.0146 acc_train: 0.7857 loss_val: 1.5079 acc_val: 0.4280 time: 0.0447s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0003 loss_train: 0.9641 acc_train: 0.7929 loss_val: 1.4696 acc_val: 0.4200 time: 0.0439s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0004 loss_train: 1.0214 acc_train: 0.8643 loss_val: 1.4334 acc_val: 0.4380 time: 0.0441s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0005 loss_train: 0.9760 acc_train: 0.8714 loss_val: 1.4034 acc_val: 0.4540 time: 0.0436s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0006 loss_train: 0.9252 acc_train: 0.8857 loss_val: 1.3774 acc_val: 0.4800 time: 0.0452s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0007 loss_train: 0.9374 acc_train: 0.9000 loss_val: 1.3572 acc_val: 0.4720 time: 0.0474s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0008 loss_train: 0.9363 acc_train: 0.8929 loss_val: 1.3417 acc_val: 0.4900 time: 0.0464s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0009 loss_train: 0.9742 acc_train: 0.8714 loss_val: 1.3299 acc_val: 0.4760 time: 0.0474s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0010 loss_train: 0.9127 acc_train: 0.8929 loss_val: 1.3209 acc_val: 0.5120 time: 0.0468s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0011 loss_train: 0.9229 acc_train: 0.8429 loss_val: 1.3160 acc_val: 0.4780 time: 0.0451s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0012 loss_train: 0.8923 acc_train: 0.8786 loss_val: 1.3129 acc_val: 0.4840 time: 0.0454s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0013 loss_train: 0.9039 acc_train: 0.8429 loss_val: 1.3092 acc_val: 0.4540 time: 0.0462s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0014 loss_train: 0.8506 acc_train: 0.8857 loss_val: 1.3061 acc_val: 0.5160 time: 0.0446s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0015 loss_train: 0.8340 acc_train: 0.8929 loss_val: 1.3007 acc_val: 0.5200 time: 0.0445s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0016 loss_train: 0.8312 acc_train: 0.8857 loss_val: 1.2939 acc_val: 0.4920 time: 0.0453s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0017 loss_train: 0.7996 acc_train: 0.9000 loss_val: 1.2839 acc_val: 0.4920 time: 0.0451s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0018 loss_train: 0.8411 acc_train: 0.8429 loss_val: 1.2720 acc_val: 0.4820 time: 0.0445s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0019 loss_train: 0.7578 acc_train: 0.9000 loss_val: 1.2590 acc_val: 0.5060 time: 0.0448s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0020 loss_train: 0.7779 acc_train: 0.9357 loss_val: 1.2461 acc_val: 0.5440 time: 0.0443s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0021 loss_train: 0.7527 acc_train: 0.9143 loss_val: 1.2333 acc_val: 0.5200 time: 0.0444s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0022 loss_train: 0.7235 acc_train: 0.9500 loss_val: 1.2200 acc_val: 0.5080 time: 0.0448s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0023 loss_train: 0.7176 acc_train: 0.9143 loss_val: 1.2069 acc_val: 0.5340 time: 0.0446s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0024 loss_train: 0.6722 acc_train: 0.9286 loss_val: 1.1947 acc_val: 0.5320 time: 0.0441s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0025 loss_train: 0.7328 acc_train: 0.9071 loss_val: 1.1845 acc_val: 0.5500 time: 0.0436s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0026 loss_train: 0.6966 acc_train: 0.9429 loss_val: 1.1756 acc_val: 0.5080 time: 0.0450s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0027 loss_train: 0.7332 acc_train: 0.9214 loss_val: 1.1675 acc_val: 0.5300 time: 0.0442s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0028 loss_train: 0.6755 acc_train: 0.9571 loss_val: 1.1606 acc_val: 0.5480 time: 0.0445s
+Best val acc: tensor(0.5540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0029 loss_train: 0.6697 acc_train: 0.9429 loss_val: 1.1555 acc_val: 0.5600 time: 0.0454s
+Best val acc: tensor(0.5600, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0030 loss_train: 0.6603 acc_train: 0.9286 loss_val: 1.1507 acc_val: 0.5120 time: 0.0443s
+Best val acc: tensor(0.5600, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0031 loss_train: 0.6653 acc_train: 0.9214 loss_val: 1.1457 acc_val: 0.5580 time: 0.0447s
+Best val acc: tensor(0.5600, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0032 loss_train: 0.6459 acc_train: 0.9214 loss_val: 1.1407 acc_val: 0.5280 time: 0.0448s
+Best val acc: tensor(0.5600, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0033 loss_train: 0.6520 acc_train: 0.9286 loss_val: 1.1359 acc_val: 0.5380 time: 0.0441s
+Best val acc: tensor(0.5600, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0034 loss_train: 0.6429 acc_train: 0.9286 loss_val: 1.1304 acc_val: 0.5780 time: 0.0440s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0035 loss_train: 0.6129 acc_train: 0.9357 loss_val: 1.1252 acc_val: 0.5280 time: 0.0435s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0036 loss_train: 0.6048 acc_train: 0.9214 loss_val: 1.1193 acc_val: 0.5640 time: 0.0439s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0037 loss_train: 0.6193 acc_train: 0.9357 loss_val: 1.1130 acc_val: 0.5520 time: 0.0440s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0038 loss_train: 0.6087 acc_train: 0.9429 loss_val: 1.1076 acc_val: 0.5140 time: 0.0433s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0039 loss_train: 0.5844 acc_train: 0.9143 loss_val: 1.1035 acc_val: 0.5380 time: 0.0449s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0040 loss_train: 0.5920 acc_train: 0.9071 loss_val: 1.0991 acc_val: 0.5460 time: 0.0443s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0041 loss_train: 0.5707 acc_train: 0.9500 loss_val: 1.0951 acc_val: 0.5440 time: 0.0439s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0042 loss_train: 0.5810 acc_train: 0.9143 loss_val: 1.0923 acc_val: 0.5060 time: 0.0444s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0043 loss_train: 0.5710 acc_train: 0.9571 loss_val: 1.0899 acc_val: 0.5580 time: 0.0448s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0044 loss_train: 0.5663 acc_train: 0.9214 loss_val: 1.0865 acc_val: 0.5740 time: 0.0441s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0045 loss_train: 0.5503 acc_train: 0.9143 loss_val: 1.0843 acc_val: 0.5480 time: 0.0447s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0046 loss_train: 0.5122 acc_train: 0.9357 loss_val: 1.0815 acc_val: 0.5620 time: 0.0440s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0047 loss_train: 0.5380 acc_train: 0.9286 loss_val: 1.0776 acc_val: 0.5560 time: 0.0439s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0048 loss_train: 0.5501 acc_train: 0.9500 loss_val: 1.0741 acc_val: 0.5640 time: 0.0442s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0049 loss_train: 0.5366 acc_train: 0.9500 loss_val: 1.0706 acc_val: 0.5560 time: 0.0439s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0050 loss_train: 0.5041 acc_train: 0.9429 loss_val: 1.0668 acc_val: 0.5580 time: 0.0441s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0051 loss_train: 0.5102 acc_train: 0.9571 loss_val: 1.0631 acc_val: 0.5400 time: 0.0442s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0052 loss_train: 0.4975 acc_train: 0.9643 loss_val: 1.0601 acc_val: 0.5760 time: 0.0441s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0053 loss_train: 0.5171 acc_train: 0.8929 loss_val: 1.0583 acc_val: 0.5400 time: 0.0446s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0054 loss_train: 0.5042 acc_train: 0.9357 loss_val: 1.0553 acc_val: 0.5540 time: 0.0446s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0055 loss_train: 0.4816 acc_train: 0.9429 loss_val: 1.0520 acc_val: 0.5780 time: 0.0441s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0056 loss_train: 0.5336 acc_train: 0.9214 loss_val: 1.0477 acc_val: 0.5480 time: 0.0437s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0057 loss_train: 0.4664 acc_train: 0.9643 loss_val: 1.0443 acc_val: 0.5600 time: 0.0451s
+Best val acc: tensor(0.5780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0058 loss_train: 0.5133 acc_train: 0.9286 loss_val: 1.0414 acc_val: 0.5820 time: 0.0442s
+Best val acc: tensor(0.5820, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0059 loss_train: 0.4718 acc_train: 0.9500 loss_val: 1.0397 acc_val: 0.5780 time: 0.0437s
+Best val acc: tensor(0.5820, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0060 loss_train: 0.5058 acc_train: 0.9214 loss_val: 1.0377 acc_val: 0.5720 time: 0.0462s
+Best val acc: tensor(0.5820, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0061 loss_train: 0.5340 acc_train: 0.9143 loss_val: 1.0358 acc_val: 0.5400 time: 0.0448s
+Best val acc: tensor(0.5820, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0062 loss_train: 0.5048 acc_train: 0.9500 loss_val: 1.0329 acc_val: 0.5740 time: 0.0445s
+Best val acc: tensor(0.5820, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0063 loss_train: 0.5073 acc_train: 0.9214 loss_val: 1.0304 acc_val: 0.5740 time: 0.0445s
+Best val acc: tensor(0.5820, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0064 loss_train: 0.4830 acc_train: 0.9643 loss_val: 1.0279 acc_val: 0.5820 time: 0.0455s
+Best val acc: tensor(0.5820, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0065 loss_train: 0.4862 acc_train: 0.9429 loss_val: 1.0267 acc_val: 0.5720 time: 0.0449s
+Best val acc: tensor(0.5820, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0066 loss_train: 0.4990 acc_train: 0.9429 loss_val: 1.0274 acc_val: 0.5920 time: 0.0451s
+Best val acc: tensor(0.5920, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0067 loss_train: 0.4937 acc_train: 0.9429 loss_val: 1.0289 acc_val: 0.5500 time: 0.0449s
+Best val acc: tensor(0.5920, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0068 loss_train: 0.4706 acc_train: 0.9500 loss_val: 1.0293 acc_val: 0.5600 time: 0.0441s
+Best val acc: tensor(0.5920, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0069 loss_train: 0.4480 acc_train: 0.9571 loss_val: 1.0285 acc_val: 0.5520 time: 0.0445s
+Best val acc: tensor(0.5920, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0070 loss_train: 0.4583 acc_train: 0.9357 loss_val: 1.0283 acc_val: 0.5820 time: 0.0451s
+Best val acc: tensor(0.5920, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0071 loss_train: 0.4558 acc_train: 0.9429 loss_val: 1.0259 acc_val: 0.5940 time: 0.0441s
+Best val acc: tensor(0.5940, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0072 loss_train: 0.4627 acc_train: 0.9571 loss_val: 1.0208 acc_val: 0.5700 time: 0.0442s
+Best val acc: tensor(0.5940, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0073 loss_train: 0.4557 acc_train: 0.9571 loss_val: 1.0148 acc_val: 0.5680 time: 0.0446s
+Best val acc: tensor(0.5940, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0074 loss_train: 0.4333 acc_train: 0.9786 loss_val: 1.0095 acc_val: 0.5440 time: 0.0446s
+Best val acc: tensor(0.5940, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0075 loss_train: 0.4704 acc_train: 0.9429 loss_val: 1.0043 acc_val: 0.5760 time: 0.0441s
+Best val acc: tensor(0.5940, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0076 loss_train: 0.4889 acc_train: 0.9143 loss_val: 1.0022 acc_val: 0.6120 time: 0.0455s
+Best val acc: tensor(0.6120, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0077 loss_train: 0.4399 acc_train: 0.9500 loss_val: 1.0016 acc_val: 0.6120 time: 0.0443s
+Best val acc: tensor(0.6120, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0078 loss_train: 0.4345 acc_train: 0.9571 loss_val: 1.0014 acc_val: 0.5940 time: 0.0447s
+Best val acc: tensor(0.6120, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0079 loss_train: 0.4355 acc_train: 0.9714 loss_val: 1.0026 acc_val: 0.6200 time: 0.0445s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0080 loss_train: 0.4348 acc_train: 0.9214 loss_val: 1.0048 acc_val: 0.5960 time: 0.0450s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0081 loss_train: 0.3796 acc_train: 0.9643 loss_val: 1.0056 acc_val: 0.5840 time: 0.0442s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0082 loss_train: 0.4554 acc_train: 0.9286 loss_val: 1.0027 acc_val: 0.5740 time: 0.0449s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0083 loss_train: 0.4099 acc_train: 0.9571 loss_val: 0.9989 acc_val: 0.6100 time: 0.0438s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0084 loss_train: 0.3895 acc_train: 0.9286 loss_val: 0.9956 acc_val: 0.5820 time: 0.0450s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0085 loss_train: 0.3904 acc_train: 0.9500 loss_val: 0.9925 acc_val: 0.6020 time: 0.0447s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0086 loss_train: 0.4748 acc_train: 0.9500 loss_val: 0.9925 acc_val: 0.5520 time: 0.0440s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0087 loss_train: 0.4004 acc_train: 0.9571 loss_val: 0.9928 acc_val: 0.5680 time: 0.0440s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0088 loss_train: 0.4264 acc_train: 0.9500 loss_val: 0.9934 acc_val: 0.5860 time: 0.0440s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0089 loss_train: 0.4036 acc_train: 0.9571 loss_val: 0.9933 acc_val: 0.5800 time: 0.0449s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0090 loss_train: 0.4533 acc_train: 0.9571 loss_val: 0.9948 acc_val: 0.5640 time: 0.0440s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0091 loss_train: 0.3843 acc_train: 0.9643 loss_val: 0.9948 acc_val: 0.5760 time: 0.0437s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0092 loss_train: 0.3920 acc_train: 0.9571 loss_val: 0.9942 acc_val: 0.6060 time: 0.0449s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0093 loss_train: 0.3403 acc_train: 0.9786 loss_val: 0.9933 acc_val: 0.5660 time: 0.0437s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0094 loss_train: 0.4244 acc_train: 0.9571 loss_val: 0.9900 acc_val: 0.5740 time: 0.0440s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0095 loss_train: 0.4441 acc_train: 0.9357 loss_val: 0.9885 acc_val: 0.5840 time: 0.0444s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0096 loss_train: 0.3776 acc_train: 0.9714 loss_val: 0.9871 acc_val: 0.5980 time: 0.0451s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0097 loss_train: 0.3538 acc_train: 0.9786 loss_val: 0.9862 acc_val: 0.5400 time: 0.0440s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0098 loss_train: 0.3960 acc_train: 0.9571 loss_val: 0.9845 acc_val: 0.5700 time: 0.0444s
+Best val acc: tensor(0.6200, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0099 loss_train: 0.4107 acc_train: 0.9429 loss_val: 0.9818 acc_val: 0.6260 time: 0.0448s
+Best val acc: tensor(0.6260, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Epoch: 0100 loss_train: 0.3896 acc_train: 0.9500 loss_val: 0.9795 acc_val: 0.5940 time: 0.0446s
+Best val acc: tensor(0.6260, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.92%
+Prune adj percent: 43.79%
+Optimization Finished!
+Total time elapsed: 4.7468s
+Test set results: loss= 0.9745 accuracy= 0.7440
+0.25 compression ratio, 2 train-prune levels
+--------------Pre training GCN--------------
+Epoch: 0001 loss_train: 1.9628 acc_train: 0.1286 loss_val: 1.9713 acc_val: 0.0820 time: 0.0679s
+Best val acc: tensor(0.0820, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0002 loss_train: 1.9455 acc_train: 0.1643 loss_val: 1.9657 acc_val: 0.0800 time: 0.0672s
+Best val acc: tensor(0.0820, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0003 loss_train: 1.9496 acc_train: 0.1357 loss_val: 1.9603 acc_val: 0.0900 time: 0.0681s
+Best val acc: tensor(0.0900, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0004 loss_train: 1.9455 acc_train: 0.1500 loss_val: 1.9547 acc_val: 0.0920 time: 0.0683s
+Best val acc: tensor(0.0920, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0005 loss_train: 1.9359 acc_train: 0.1714 loss_val: 1.9495 acc_val: 0.1020 time: 0.0690s
+Best val acc: tensor(0.1020, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0006 loss_train: 1.9335 acc_train: 0.2000 loss_val: 1.9447 acc_val: 0.1240 time: 0.0679s
+Best val acc: tensor(0.1240, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0007 loss_train: 1.9351 acc_train: 0.2571 loss_val: 1.9405 acc_val: 0.1780 time: 0.0689s
+Best val acc: tensor(0.1780, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0008 loss_train: 1.9285 acc_train: 0.2643 loss_val: 1.9365 acc_val: 0.1900 time: 0.0683s
+Best val acc: tensor(0.1900, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0009 loss_train: 1.9338 acc_train: 0.2071 loss_val: 1.9327 acc_val: 0.1840 time: 0.0677s
+Best val acc: tensor(0.1900, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0010 loss_train: 1.9225 acc_train: 0.3429 loss_val: 1.9287 acc_val: 0.2340 time: 0.0664s
+Best val acc: tensor(0.2340, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0011 loss_train: 1.9167 acc_train: 0.2929 loss_val: 1.9248 acc_val: 0.2340 time: 0.0677s
+Best val acc: tensor(0.2340, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0012 loss_train: 1.9160 acc_train: 0.2929 loss_val: 1.9212 acc_val: 0.2300 time: 0.0672s
+Best val acc: tensor(0.2340, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0013 loss_train: 1.9097 acc_train: 0.3929 loss_val: 1.9176 acc_val: 0.2600 time: 0.0685s
+Best val acc: tensor(0.2600, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0014 loss_train: 1.9054 acc_train: 0.3357 loss_val: 1.9146 acc_val: 0.2580 time: 0.0687s
+Best val acc: tensor(0.2600, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0015 loss_train: 1.9008 acc_train: 0.3500 loss_val: 1.9117 acc_val: 0.3060 time: 0.0682s
+Best val acc: tensor(0.3060, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0016 loss_train: 1.8900 acc_train: 0.4357 loss_val: 1.9091 acc_val: 0.3080 time: 0.0687s
+Best val acc: tensor(0.3080, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0017 loss_train: 1.8862 acc_train: 0.4357 loss_val: 1.9062 acc_val: 0.2880 time: 0.0667s
+Best val acc: tensor(0.3080, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0018 loss_train: 1.8790 acc_train: 0.5000 loss_val: 1.9031 acc_val: 0.3000 time: 0.0671s
+Best val acc: tensor(0.3080, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0019 loss_train: 1.8806 acc_train: 0.4643 loss_val: 1.8997 acc_val: 0.3240 time: 0.0696s
+Best val acc: tensor(0.3240, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0020 loss_train: 1.8788 acc_train: 0.4357 loss_val: 1.8967 acc_val: 0.3160 time: 0.0679s
+Best val acc: tensor(0.3240, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0021 loss_train: 1.8649 acc_train: 0.5000 loss_val: 1.8928 acc_val: 0.3560 time: 0.0680s
+Best val acc: tensor(0.3560, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0022 loss_train: 1.8629 acc_train: 0.5143 loss_val: 1.8890 acc_val: 0.3600 time: 0.0695s
+Best val acc: tensor(0.3600, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0023 loss_train: 1.8492 acc_train: 0.5214 loss_val: 1.8852 acc_val: 0.4340 time: 0.0681s
+Best val acc: tensor(0.4340, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0024 loss_train: 1.8454 acc_train: 0.5786 loss_val: 1.8811 acc_val: 0.3720 time: 0.0668s
+Best val acc: tensor(0.4340, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0025 loss_train: 1.8256 acc_train: 0.6143 loss_val: 1.8768 acc_val: 0.4080 time: 0.0683s
+Best val acc: tensor(0.4340, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0026 loss_train: 1.8206 acc_train: 0.6000 loss_val: 1.8723 acc_val: 0.3940 time: 0.0678s
+Best val acc: tensor(0.4340, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0027 loss_train: 1.8123 acc_train: 0.6000 loss_val: 1.8676 acc_val: 0.4440 time: 0.0687s
+Best val acc: tensor(0.4440, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0028 loss_train: 1.8038 acc_train: 0.6786 loss_val: 1.8622 acc_val: 0.4140 time: 0.0674s
+Best val acc: tensor(0.4440, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0029 loss_train: 1.7900 acc_train: 0.7214 loss_val: 1.8564 acc_val: 0.4460 time: 0.0682s
+Best val acc: tensor(0.4460, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0030 loss_train: 1.7780 acc_train: 0.7071 loss_val: 1.8497 acc_val: 0.4540 time: 0.0679s
+Best val acc: tensor(0.4540, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0031 loss_train: 1.7692 acc_train: 0.6429 loss_val: 1.8429 acc_val: 0.4720 time: 0.0683s
+Best val acc: tensor(0.4720, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0032 loss_train: 1.7524 acc_train: 0.7214 loss_val: 1.8361 acc_val: 0.4100 time: 0.0674s
+Best val acc: tensor(0.4720, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0033 loss_train: 1.7396 acc_train: 0.6571 loss_val: 1.8292 acc_val: 0.4540 time: 0.0686s
+Best val acc: tensor(0.4720, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0034 loss_train: 1.7240 acc_train: 0.6857 loss_val: 1.8221 acc_val: 0.4500 time: 0.0690s
+Best val acc: tensor(0.4720, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0035 loss_train: 1.7014 acc_train: 0.7214 loss_val: 1.8149 acc_val: 0.5160 time: 0.0684s
+Best val acc: tensor(0.5160, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0036 loss_train: 1.6949 acc_train: 0.7143 loss_val: 1.8070 acc_val: 0.4820 time: 0.0686s
+Best val acc: tensor(0.5160, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0037 loss_train: 1.6729 acc_train: 0.7071 loss_val: 1.7984 acc_val: 0.4660 time: 0.0682s
+Best val acc: tensor(0.5160, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0038 loss_train: 1.6609 acc_train: 0.7571 loss_val: 1.7881 acc_val: 0.4380 time: 0.0680s
+Best val acc: tensor(0.5160, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0039 loss_train: 1.6227 acc_train: 0.7357 loss_val: 1.7772 acc_val: 0.4920 time: 0.0687s
+Best val acc: tensor(0.5160, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0040 loss_train: 1.5987 acc_train: 0.7071 loss_val: 1.7658 acc_val: 0.4660 time: 0.0692s
+Best val acc: tensor(0.5160, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0041 loss_train: 1.5898 acc_train: 0.7929 loss_val: 1.7549 acc_val: 0.4680 time: 0.0697s
+Best val acc: tensor(0.5160, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0042 loss_train: 1.5854 acc_train: 0.6500 loss_val: 1.7444 acc_val: 0.4480 time: 0.0689s
+Best val acc: tensor(0.5160, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0043 loss_train: 1.5104 acc_train: 0.7786 loss_val: 1.7332 acc_val: 0.4800 time: 0.0678s
+Best val acc: tensor(0.5160, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0044 loss_train: 1.5256 acc_train: 0.7571 loss_val: 1.7222 acc_val: 0.5240 time: 0.0695s
+Best val acc: tensor(0.5240, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0045 loss_train: 1.4669 acc_train: 0.7571 loss_val: 1.7111 acc_val: 0.4900 time: 0.0694s
+Best val acc: tensor(0.5240, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0046 loss_train: 1.4557 acc_train: 0.7643 loss_val: 1.7008 acc_val: 0.5100 time: 0.0673s
+Best val acc: tensor(0.5240, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0047 loss_train: 1.4358 acc_train: 0.8071 loss_val: 1.6911 acc_val: 0.5220 time: 0.0672s
+Best val acc: tensor(0.5240, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0048 loss_train: 1.4046 acc_train: 0.7857 loss_val: 1.6821 acc_val: 0.5300 time: 0.0684s
+Best val acc: tensor(0.5300, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0049 loss_train: 1.3695 acc_train: 0.8357 loss_val: 1.6736 acc_val: 0.5400 time: 0.0678s
+Best val acc: tensor(0.5400, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0050 loss_train: 1.3139 acc_train: 0.8357 loss_val: 1.6646 acc_val: 0.5380 time: 0.0680s
+Best val acc: tensor(0.5400, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0051 loss_train: 1.3341 acc_train: 0.8143 loss_val: 1.6556 acc_val: 0.5000 time: 0.0678s
+Best val acc: tensor(0.5400, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0052 loss_train: 1.2794 acc_train: 0.8357 loss_val: 1.6462 acc_val: 0.5040 time: 0.0683s
+Best val acc: tensor(0.5400, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0053 loss_train: 1.2290 acc_train: 0.8429 loss_val: 1.6359 acc_val: 0.5180 time: 0.0681s
+Best val acc: tensor(0.5400, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
+Epoch: 0054 loss_train: 1.2131 acc_train: 0.8714 loss_val: 1.6248 acc_val: 0.4840 time: 0.0674s
+Best val acc: tensor(0.5400, device='cuda:0', dtype=torch.float64)
+Sparsity in gc1.weight: 0.00%
+Sparsity in gc2.weight: 0.00%
+Weight Sparsity: 0.00%
+Sparsity in gc1.bias: 0.00%
+Sparsity in gc2.bias: 0.00%
+Sparsity in adj_weight: 99.86%
+Sparsity in adj_matrix: 99.86%
+Sparsity in adj_mask: 99.86%
+Prune adj percent: 0.00%
